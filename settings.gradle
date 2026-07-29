@@ -13,8 +13,7 @@ dependencyResolutionManagement {
         maven { url = "https://fabricmc.net" }
         maven { url = "https://jitpack.io" }
         maven { url = "https://meteorclient.com" }
-        maven { url = "https://meteorclient.com" }
     }
 }
 
-rootProject.name = 'my-meteor-addon'
+rootProject.name = 'meteor-addon'
