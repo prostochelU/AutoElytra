@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mace-swap-addon",
+  "version": "${version}",
+  "name": "Mace Swap Addon",
+  "description": "Авто-свап элитры на нагрудник для удара булавой.",
+  "authors": [ "AI" ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "meteor-addon": [
+      "example.addon.Addon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "meteor-client": "*"
+  }
+}
